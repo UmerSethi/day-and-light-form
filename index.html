@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="dark-mode">
+        <input type="checkbox" id="toggle_mode" class="checkbox">
+        <label class="label" for="toggle_mode">
+        <i class="fa fa-moon-o"></i>
+        <i class="fa fa-sun-o"></i>
+        <div class="circle"></div>
+        </label>
+    </header>
+    <main>
+        <div class="card">
+            <header>
+                <img src="./image/nike.png" alt="logo">
+                <h3>Your account for<br>Everything Nike</h3>
+
+            </header>
+<div class="info">
+    <fieldset>
+        <label for="email">
+            E-mail
+            <input type="email" name="email" id="email" placeholder="m.umersethi91@gmail.com">
+            
+        </label>
+    </fieldset>
+    <fieldset>
+        <label for="password">
+            Password
+            <input type="password" name="password" id="password" placeholder="password">
+            <div toggle="#password-field" class="toggle-password">
+                <a href="#"><i class="off fa fa-eye"></i></a>
+                <a href="#"><i class="on hide fa fa-eye-slash"></i></a>
+            </div>
+        </label>
+    </fieldset>
+    <a href="#">Forgot Password</a>
+</div>
+<button>Loin</button>
+<p>Don't have an account ?<a href="#">Register Here</a></p>
+<footer>
+    <a href="#"><i class="fa fa-facebook"></i></a>
+    <a href="#"><i class="fa fa-twitter"></i></a>
+    <a href="#"><i class="fa fa-linkedin"></i></a>
+    <a href="#"><i class="fa fa-instagram"></i></a>
+</footer>
+
+
+        </div>
+    </main>
+</body>
+<script src="app.js"></script>
+</html>
